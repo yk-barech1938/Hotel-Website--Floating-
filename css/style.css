@@ -39,6 +39,7 @@ p{
     font-size: 18px;
     color: #fff;
     background-color: #333;
+    border-radius: 5px;
     padding: 13px 20px;
     border: none;
     cursor: pointer;
@@ -65,6 +66,15 @@ p{
 }
 .clr{
     clear: both;
+}
+/* Padding */
+.py-1{padding: 10px 0;}
+.py-2{padding: 20px 0;}
+.py-3{padding: 30px 0;}
+
+/* Large headings */
+.l-heading{
+    font-size: 40px
 }
 /* Navbar */
 #navbar{
@@ -160,11 +170,56 @@ p{
 .box i{
     margin-bottom: 10px;
 }
+/* About Info */
 
+#about-info .info-right{
+    float: right;
+    width: 50%;
+    min-height: 100%;
+}
+#about-info .info-right img{
+    display: block;
+    margin: auto;
+    width: 70%;
+    border-radius: 50%;
+}
+#about-info .info-left{
+    float: left;
+    width: 50%;
+    min-height: 100%;
+}
+
+/* Testimonials Comments guests saying */
+#testimonials{
+    height: 600px;
+    background: url('../image_resources/test-bg.jpg') no-repeat center center/cover;
+    padding-top: 100px;
+}
+#testimonials  h2{
+    color: #fff;
+    text-align: center;
+    padding-bottom: 40px;
+}
+#testimonials .testimonial{
+    padding: 20px;
+    margin-bottom: 40px;
+    border-radius: 10px;
+    /* overlay transparent tesimonials */
+    opacity: 0.9;
+    
+}
+#testimonials .testimonial img{
+    width: 100px;
+    float: left;
+    margin-right: 20px;
+    border-radius: 50%;
+    
+}
 /* Main footer */
 #main-footer{
     text-align: center;
     background: #444;
     color: #fff;
-    padding: 5px;
+    padding: 15px;
 }
+
